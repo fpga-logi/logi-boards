@@ -1,0 +1,6 @@
+Revision Notes
+
+- There was something wrong with the PS/2 pins????   Cant remember now.
+
+- Added pullups to ps2 pins
+- lowered the vga output resistor values (brighter display)

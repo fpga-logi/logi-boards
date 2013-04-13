@@ -1,0 +1,12 @@
+Output: GERBERS
+Type  : NC Drill
+From  : PCB Document [logi-mark1-edu.PcbDoc]
+   Generated File[logi-mark1-edu.TXT]
+   Generated File[logi-mark1-edu.LDP]
+   Generated File[logi-mark1-edu.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 2:15:15 PM On 4/13/2013
