@@ -1,0 +1,15 @@
+
+
+RA.3
+    Changes:
+    - Added solder jumpers for easy configuration.  The camera can be used with no
+    components populated if using the Header cameras.  Just make proper jumper connections
+
+
+
+RA.2
+    Changes:
+    - Added pull up resistors, in case camera does not have them populated(all
+    cameras have had them populated to date).
+    Errata:
+    -
