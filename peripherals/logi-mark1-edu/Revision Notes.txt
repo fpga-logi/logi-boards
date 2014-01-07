@@ -1,5 +1,18 @@
 Revision Notes
 
+RA3:
+    CHANGLOG:
+    - adding mounting holes to add standoffs from the bottom of the board
+    - added 5V header so do not need to use the extended PMOD header
+
+
+
+
+PREVIOUS
+
+
+
+
 - There was something wrong with the PS/2 pins????   Cant remember now.
 
 - Added pullups to ps2 pins
