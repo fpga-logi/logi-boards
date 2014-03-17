@@ -6,14 +6,13 @@ RA3:
     - added 5V header so do not need to use the extended PMOD header
 
 
-
-
 PREVIOUS
 
 
 
 
 - There was something wrong with the PS/2 pins????   Cant remember now.
+        - PULLUPS WERE TIED TO GROUND!?!
 
 - Added pullups to ps2 pins
 - lowered the vga output resistor values (brighter display)
