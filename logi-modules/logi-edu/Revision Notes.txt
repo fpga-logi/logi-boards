@@ -3,8 +3,13 @@ R1.0
 - added ext header and jumper to select.  See digilent PMOD.  accepts 5V
 - increased the SSEG hole size.
 - Added series resistors to PS/2
-
-
+- setting PWM cutoff for audio.:
+http://learn.adafruit.com/trinket-audio-player/sound-playback
+    - set cutoff to 1/10th the PWM frequency.  250Khz sounds good, which is what they use.
+    So: .1uF and 68ohm
+    - papilio uses 3.3k and 4.7nf = 10K cutoff  (based on xilinx app note)
+    - http://www.xilinx.com/support/documentation/application_notes/xapp154.pdf
+- Added 1206 footprints for audio output
 
 
 RA3:
@@ -14,10 +19,6 @@ RA3:
 
 
 PREVIOUS
-
-
-
-
 - There was something wrong with the PS/2 pins????   Cant remember now.
         - PULLUPS WERE TIED TO GROUND!?!
 
