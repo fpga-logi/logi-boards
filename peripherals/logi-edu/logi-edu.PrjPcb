@@ -52,38 +52,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document2]
-DocumentPath=logi-mark1-edu.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document3]
-DocumentPath=logi-mark1-edu.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document4]
 DocumentPath=logi-outjob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,9 +67,99 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document3]
+DocumentPath=logi-edu-top.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document4]
+DocumentPath=logi-edu.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document5]
+DocumentPath=logi-edu.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[ProjectVariant1]
+Description=Complete
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
+[ProjectVariant2]
+Description=Production
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
 [GeneratedDocument1]
+DocumentPath=logi-edu 3-18-2014 4-19-47 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=logi-edu 3-18-2014 4-20-11 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=logi-edu 3-18-2014 4-20-29 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=logi-edu 3-18-2014 4-21-01 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument5]
 DocumentPath=logi-mark1-edu.PcbDoc.htm
 DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=BUILD\BOM\Pricing BOM-logi-mark1-edu(Production).xls
+DItemRevisionGUID=
+
+[Parameter1]
+Name=PrjEngineer
+Value=M.Jones
+
+[Parameter2]
+Name=PrjRevision
+Value=R1.0
 
 [Configuration1]
 Name=Default Configuration
@@ -151,6 +209,101 @@ OutputName6=XSpice Netlist
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=CadnetixNetlist
+OutputName7=Cadnetix Netlist
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=CalayNetlist
+OutputName8=Calay Netlist
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=EDIF
+OutputName9=EDIF for PCB
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=EESofNetlist
+OutputName10=EESof Netlist
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=IntergraphNetlist
+OutputName11=Intergraph Netlist
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=MentorBoardStationNetlist
+OutputName12=Mentor BoardStation Netlist
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=MultiWire
+OutputName13=MultiWire
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=OrCadPCB2Netlist
+OutputName14=Orcad/PCB2 Netlist
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=PADSNetlist
+OutputName15=PADS ASCII Netlist
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Pcad
+OutputName16=Pcad for PCB
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=PCADnltNetlist
+OutputName17=PCADnlt Netlist
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=Protel2Netlist
+OutputName18=Protel2 Netlist
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+OutputType19=ProtelNetlist
+OutputName19=Protel
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+OutputType20=RacalNetlist
+OutputName20=Racal Netlist
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+OutputType21=RINFNetlist
+OutputName21=RINF Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+OutputType22=SciCardsNetlist
+OutputName22=SciCards Netlist
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=TangoNetlist
+OutputName23=Tango Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
+OutputType24=TelesisNetlist
+OutputName24=Telesis Netlist
+OutputDocumentPath24=
+OutputVariantName24=
+OutputDefault24=0
+OutputType25=WireListNetlist
+OutputName25=WireList Netlist
+OutputDocumentPath25=
+OutputVariantName25=
+OutputDefault25=0
 
 [OutputGroup2]
 Name=Simulator Outputs

@@ -1,4 +1,11 @@
 Revision Notes
+R1.0
+- added ext header and jumper to select.  See digilent PMOD.  accepts 5V
+- increased the SSEG hole size.
+- Added series resistors to PS/2
+
+
+
 
 RA3:
     CHANGLOG:
