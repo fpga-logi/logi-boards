@@ -1,5 +1,6 @@
 R1.0
     - Added thru hole resistor and SMT transistor.
+    - added better via stitching
 
 RA.3
     Changes:

@@ -122,7 +122,7 @@ ParameterCount=0
 VariationCount=7
 Variation1=Designator=C1|UniqueId=\MTKAVCPV|Kind=1|AlternatePart= 
 Variation2=Designator=R1|UniqueId=\QFOCNAJC|Kind=1|AlternatePart= 
-Variation3=Designator=R2|UniqueId=\BLYESJUW|Kind=1|AlternatePart= 
+Variation3=Designator=R2|UniqueId=\BLYESJUW|Kind=0|AlternatePart= 
 Variation4=Designator=R3|UniqueId=\VEWRDRPL|Kind=1|AlternatePart= 
 Variation5=Designator=R8|UniqueId=\TPXEMNBI|Kind=1|AlternatePart= 
 Variation6=Designator=C2|UniqueId=\XKCQVTVD|Kind=1|AlternatePart= 
