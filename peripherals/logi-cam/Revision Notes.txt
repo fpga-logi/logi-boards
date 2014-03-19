@@ -1,4 +1,5 @@
-
+R1.0
+    - Added thru hole resistor and SMT transistor.
 
 RA.3
     Changes:
