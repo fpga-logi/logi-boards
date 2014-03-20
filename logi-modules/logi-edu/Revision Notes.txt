@@ -1,5 +1,9 @@
 Revision Notes
 R1.0
+- added series resistor to Hsync, Vsync signa.  Saftey.
+- adding 3 bits / color on vga.  Pong book only runs 1 ps/2 simultanesly.
+So will use the share the second ps/2 port with VGA R,B bits 3.  There was unused
+pin that was being run to the breadboard area.  Sharing this with G bit(3)
 - added ext header and jumper to select.  See digilent PMOD.  accepts 5V
 - increased the SSEG hole size.
 - Added series resistors to PS/2

@@ -74,7 +74,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -106,7 +106,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -130,7 +130,19 @@ VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=BUILD\BOM\Pricing BOM-logi-mark1-edu(Production).xls
+DocumentPath=logi-edu 3-19-2014 7-06-57 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=logi-edu 3-19-2014 7-08-39 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=logi-edu 3-19-2014 7-09-05 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=logi-edu 3-19-2014 7-09-18 PM.WAS
 DItemRevisionGUID=
 
 [Parameter1]
