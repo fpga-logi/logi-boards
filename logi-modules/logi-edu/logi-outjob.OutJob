@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=logi-outjob.OutJob
 Description=
-TargetOutputMedium=Schematics
+TargetOutputMedium=Pricing BOM
 VariantName=Production
 VariantScope=1
 CurrentConfigurationName=
@@ -33,22 +33,19 @@ OutputMedium3=3D Views
 OutputMedium3_Type=Publish
 OutputMedium4=GERBERS
 OutputMedium4_Type=GeneratedFiles
-OutputMedium5=Assembly BOM
+OutputMedium5=Pricing BOM
 OutputMedium5_Type=GeneratedFiles
-OutputMedium6=Pricing BOM
-OutputMedium6_Type=GeneratedFiles
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
 OutputCategory1=Documentation
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
 OutputEnabled1_OutputMedium5=0
-OutputEnabled1_OutputMedium6=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.71|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter (8 1/2 x 11 in)|PrintScaleMode=1
 Configuration1_Name1=OutputConfigurationParameter1
@@ -64,7 +61,6 @@ OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
 OutputEnabled2_OutputMedium5=0
-OutputEnabled2_OutputMedium6=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter (8 1/2 x 11 in)|PrintScaleMode=0
 Configuration2_Name1=OutputConfigurationParameter1
@@ -122,7 +118,6 @@ OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=0
 OutputEnabled3_OutputMedium4=1
 OutputEnabled3_OutputMedium5=0
-OutputEnabled3_OutputMedium6=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908291~1,16908302~1,16908303~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False
@@ -137,7 +132,6 @@ OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=2
 OutputEnabled4_OutputMedium5=0
-OutputEnabled4_OutputMedium6=0
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
@@ -152,7 +146,6 @@ OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=2
 OutputEnabled5_OutputMedium4=0
 OutputEnabled5_OutputMedium5=0
-OutputEnabled5_OutputMedium6=0
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.97|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter 8.5x11in.|PrintScaleMode=1
 Configuration5_Name1=OutputConfigurationParameter1
@@ -168,7 +161,6 @@ OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=3
 OutputEnabled6_OutputMedium4=0
 OutputEnabled6_OutputMedium5=0
-OutputEnabled6_OutputMedium6=0
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.89|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A5 148x210mm|PrintScaleMode=1
 Configuration6_Name1=OutputConfigurationParameter1
@@ -177,26 +169,25 @@ OutputType7=BOM_PartType
 OutputName7=Pricing BOM
 OutputCategory7=Report
 OutputDocumentPath7=
-OutputVariantName7=
-OutputEnabled7=0
+OutputVariantName7=Production
+OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=0
 OutputEnabled7_OutputMedium4=0
-OutputEnabled7_OutputMedium5=0
-OutputEnabled7_OutputMedium6=1
+OutputEnabled7_OutputMedium5=1
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A5 148x210mm|PrintScaleMode=1
 Configuration7_Name1=Filter
 Configuration7_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration7_Name2=General
-Configuration7_Item2=OpenExported=True|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=PRICING_BOM.XLT|BatchMode=5|FormWidth=1373|FormHeight=652|SupplierProdQty=100|SupplierAutoQty=False|SupplierUseCachedPricing=True|SupplierCurrency=<none>
+Configuration7_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=PRICING_BOM.XLT|BatchMode=5|FormWidth=1373|FormHeight=652|SupplierProdQty=100|SupplierAutoQty=False|SupplierUseCachedPricing=True|SupplierCurrency=USD
 Configuration7_Name3=GroupOrder
 Configuration7_Item3=Manufacturer Part Number=True
 Configuration7_Name4=SortOrder
-Configuration7_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration7_Item4=LibRef=Down
 Configuration7_Name5=VisibleOrder
-Configuration7_Item5=Description=77|Designator=77|LibRef=77|Manufacturer 1=77|Quantity=77|Supplier 1=77|Supplier Part Number 1=77|Value=77|Manufacturer=77|Manufacturer Part Number=77|Supplier Order Qty 1=51|Supplier Subtotal 1=99|Supplier Unit Price 1=81
+Configuration7_Item5=Description=58|Designator=58|Manufacturer 1=53|Quantity=53|Supplier 1=53|Supplier Part Number 1=53|Value=53|Manufacturer=53|Manufacturer Part Number=53|Supplier Order Qty 1=108|Supplier Subtotal 1=26|Supplier Unit Price 1=20|Accept Replacement=100
 OutputType8=Pick Place
 OutputName8=PICK-PLACE - NO_THRU-HOLE
 OutputCategory8=Assembly
@@ -208,7 +199,6 @@ OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
 OutputEnabled8_OutputMedium4=0
 OutputEnabled8_OutputMedium5=0
-OutputEnabled8_OutputMedium6=0
 OutputDefault8=0
 Configuration8_Name1=OutputConfigurationParameter1
 Configuration8_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=True|GenerateTextFormat=True
@@ -222,8 +212,7 @@ OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=0
 OutputEnabled9_OutputMedium4=0
-OutputEnabled9_OutputMedium5=1
-OutputEnabled9_OutputMedium6=0
+OutputEnabled9_OutputMedium5=0
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A5 148x210mm|PrintScaleMode=1
 Configuration9_Name1=Filter
@@ -246,8 +235,7 @@ OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=0
 OutputEnabled10_OutputMedium4=0
-OutputEnabled10_OutputMedium5=2
-OutputEnabled10_OutputMedium6=0
+OutputEnabled10_OutputMedium5=0
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A5 148x210mm|PrintScaleMode=1
 Configuration10_Name1=Filter
@@ -271,7 +259,6 @@ OutputEnabled11_OutputMedium2=0
 OutputEnabled11_OutputMedium3=0
 OutputEnabled11_OutputMedium4=0
 OutputEnabled11_OutputMedium5=0
-OutputEnabled11_OutputMedium6=0
 OutputDefault11=0
 Configuration11_Name1=OutputConfigurationParameter1
 Configuration11_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=True|GenerateTextFormat=True
@@ -286,7 +273,6 @@ OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=1
 OutputEnabled12_OutputMedium4=0
 OutputEnabled12_OutputMedium5=0
-OutputEnabled12_OutputMedium6=0
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.89|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 Configuration12_Name1=OutputConfigurationParameter1
@@ -302,7 +288,6 @@ OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=0
 OutputEnabled13_OutputMedium4=0
 OutputEnabled13_OutputMedium5=0
-OutputEnabled13_OutputMedium6=0
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.14|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 Configuration13_Name1=OutputConfigurationParameter1
@@ -363,15 +348,15 @@ OutputPathMedia4=[Media Name]
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Custom]
 OutputPathOutputerPrefix4=R1_0
-OutputPathOutputerValue4=R1_0
+OutputPathOutputerValue4=R1_0_140320
 OutputFileName4=
 OutputFileNameMulti4=LOGI-EDU-R1_0
 UseOutputNameForMulti4=0
 OutputFileNameSpecial4=
 OpenOutput4=0
-OutputFilePath5=C:\eli\BUSINESS\CLIENT_DATA\WAVENUMBER\FPGA_SHIELD_MARK_1\SCH\MARK1\BUILD_PACKAGE\BOM\
+OutputFilePath5=E:\Dropbox\Prj\Valent\LOGI-FAMILY\1logi-github\1NEW-DEV\logi-boards\logi-modules\logi-edu\BUILD\BOM\
 ReleaseManaged5=0
-OutputBasePath5=BUILD_PACKAGE\
+OutputBasePath5=BUILD\
 OutputPathMedia5=BOM
 OutputPathMediaValue5=BOM
 OutputPathOutputer5=
@@ -379,22 +364,9 @@ OutputPathOutputerPrefix5=
 OutputPathOutputerValue5=
 OutputFileName5=
 OutputFileNameMulti5=
-UseOutputNameForMulti5=0
+UseOutputNameForMulti5=1
 OutputFileNameSpecial5=
 OpenOutput5=1
-OutputFilePath6=E:\Dropbox\Prj\Valent\LOGI-FAMILY\1logi-github\1NEW-DEV\logi-boards\logi-modules\logi-edu\BUILD\BOM\
-ReleaseManaged6=0
-OutputBasePath6=BUILD\
-OutputPathMedia6=BOM
-OutputPathMediaValue6=BOM
-OutputPathOutputer6=
-OutputPathOutputerPrefix6=
-OutputPathOutputerValue6=
-OutputFileName6=
-OutputFileNameMulti6=
-UseOutputNameForMulti6=1
-OutputFileNameSpecial6=
-OpenOutput6=1
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=E:\Dropbox\Prj\Valent\LOGI-FAMILY\1logi-github\1NEW-DEV\logi-boards\logi-modules\logi-edu\BUILD\sch\sch-logi-edu-r1_0.pdf
@@ -411,7 +383,7 @@ OpenGerberOutput4=0
 OpenNCDrillOutput4=0
 OpenIPCOutput4=0
 EnableReload4=0
-RelativeOutputPath5=C:\eli\BUSINESS\CLIENT_DATA\WAVENUMBER\FPGA_SHIELD_MARK_1\SCH\MARK1\BUILD_PACKAGE\BOM\
+RelativeOutputPath5=E:\Dropbox\Prj\Valent\LOGI-FAMILY\1logi-github\1NEW-DEV\logi-boards\logi-modules\logi-edu\BUILD\BOM\
 OpenOutputs5=1
 AddToProject5=1
 TimestampFolder5=0
@@ -421,14 +393,4 @@ OpenGerberOutput5=0
 OpenNCDrillOutput5=0
 OpenIPCOutput5=0
 EnableReload5=0
-RelativeOutputPath6=E:\Dropbox\Prj\Valent\LOGI-FAMILY\1logi-github\1NEW-DEV\logi-boards\logi-modules\logi-edu\BUILD\BOM\
-OpenOutputs6=1
-AddToProject6=1
-TimestampFolder6=0
-UseOutputName6=0
-OpenODBOutput6=0
-OpenGerberOutput6=0
-OpenNCDrillOutput6=0
-OpenIPCOutput6=0
-EnableReload6=0
 

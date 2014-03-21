@@ -1,5 +1,9 @@
 Revision Notes
 R1.0
+- Adding servo control option.  vcc, gnd, servo strip on the breadboard.
+  - sharing 3 pins to have connected by default to the servo signals.
+  - sharing pins.  ps/2 pins (not likely used with servo)
+  - using 1 audio pwm
 - added series resistor to Hsync, Vsync signa.  Saftey.
 - adding 3 bits / color on vga.  Pong book only runs 1 ps/2 simultanesly.
 So will use the share the second ps/2 port with VGA R,B bits 3.  There was unused
@@ -15,12 +19,10 @@ http://learn.adafruit.com/trinket-audio-player/sound-playback
     - http://www.xilinx.com/support/documentation/application_notes/xapp154.pdf
 - Added 1206 footprints for audio output
 
-
 RA3:
     CHANGLOG:
     - adding mounting holes to add standoffs from the bottom of the board
     - added 5V header so do not need to use the extended PMOD header
-
 
 PREVIOUS
 - There was something wrong with the PS/2 pins????   Cant remember now.
