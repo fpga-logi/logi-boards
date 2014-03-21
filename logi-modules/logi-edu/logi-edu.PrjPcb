@@ -126,7 +126,14 @@ ParamVariationCount=0
 Description=Production
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=7
+Variation1=Designator=P11|UniqueId=\DEJGRPAL|Kind=1|AlternatePart= 
+Variation2=Designator=P12|UniqueId=\SFMCFGXP|Kind=1|AlternatePart= 
+Variation3=Designator=P16|UniqueId=\XLGCRXXE|Kind=1|AlternatePart= 
+Variation4=Designator=P15|UniqueId=\JFDSGHYF|Kind=1|AlternatePart= 
+Variation5=Designator=P14|UniqueId=\ICJXVLRM|Kind=1|AlternatePart= 
+Variation6=Designator=P13|UniqueId=\VLWRKDLG|Kind=1|AlternatePart= 
+Variation7=Designator=P15|UniqueId=\HJEPXRWD|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]

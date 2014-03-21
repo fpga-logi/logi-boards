@@ -1,9 +1,14 @@
 Revision Notes
 R1.0
+140321
+- created more clearance on top side of breadboard area.
+140319
+-SENT TO OSHPARK
 - Adding servo control option.  vcc, gnd, servo strip on the breadboard.
   - sharing 3 pins to have connected by default to the servo signals.
   - sharing pins.  ps/2 pins (not likely used with servo)
   - using 1 audio pwm
+140318
 - added series resistor to Hsync, Vsync signa.  Saftey.
 - adding 3 bits / color on vga.  Pong book only runs 1 ps/2 simultanesly.
 So will use the share the second ps/2 port with VGA R,B bits 3.  There was unused
