@@ -1,4 +1,7 @@
 Revision Notes
+
+Next version
+
 R1.0
 140321
 - created more clearance on top side of breadboard area.
@@ -7,7 +10,11 @@ R1.0
 - Adding servo control option.  vcc, gnd, servo strip on the breadboard.
   - sharing 3 pins to have connected by default to the servo signals.
   - sharing pins.  ps/2 pins (not likely used with servo)
-  - using 1 audio pwm
+  - using 1 a
+  udio pwm
+
+  Errata:
+  - the pmods are labeled wrong!
 140318
 - added series resistor to Hsync, Vsync signa.  Saftey.
 - adding 3 bits / color on vga.  Pong book only runs 1 ps/2 simultanesly.
@@ -35,3 +42,14 @@ PREVIOUS
 
 - Added pullups to ps2 pins
 - lowered the vga output resistor values (brighter display)
+
+Test jig connections:
+- sseg test all 4 segments - all segment on - all segments off
+- ps2_2 = vga grayscale bit 3
+  - plug
+- ps2_1 = ps/2 jig, short clk/data pins
+- audio = short audio pins, or run audio speaker output
+- nes2 = nes_clk - nes2_datA
+- nes1 = nes1_data - nes_lat
+
+
