@@ -58,7 +58,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -90,7 +90,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -121,7 +121,7 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=7
 Variation1=Designator=C1|UniqueId=\MTKAVCPV|Kind=1|AlternatePart= 
-Variation2=Designator=R1|UniqueId=\QFOCNAJC|Kind=1|AlternatePart= 
+Variation2=Designator=R1|UniqueId=\QFOCNAJC|Kind=0|AlternatePart= 
 Variation3=Designator=R2|UniqueId=\BLYESJUW|Kind=0|AlternatePart= 
 Variation4=Designator=R3|UniqueId=\VEWRDRPL|Kind=1|AlternatePart= 
 Variation5=Designator=R8|UniqueId=\TPXEMNBI|Kind=1|AlternatePart= 
@@ -137,12 +137,16 @@ VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
-Name=PrjEngineer
-Value=M. Jones
+Name=
+Value=
 
 [Parameter2]
 Name=PrjRevision
-Value=R1.0
+Value=R1.1
+
+[Parameter3]
+Name=PrjEngineer
+Value=M. Jones
 
 [Configuration1]
 Name=Default Configuration
