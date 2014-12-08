@@ -1,0 +1,9 @@
+DRC Rules Export File for PCB: H:\Dropbox\1LOGI\1LOGI_SRC\2logi-bitbucket\new-structure-split_\logi-modules\logi-cam-lvds\logi-cam\logi-cam-mt9v.PcbDoc
+RuleKind=Clearance|RuleName=Keepout|Scope=Board|Minimum=15.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_1|Scope=Board|Minimum=4.00
+RuleKind=SolderMaskExpansion|RuleName=VIA|Scope=Board|Minimum=-100.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=POLY_TO_POLY|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=POLY_IN_BGA|Scope=Board|Minimum=6.00

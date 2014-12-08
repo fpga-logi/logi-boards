@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: logi-cam-mt9v.PcbDoc   11/14/2014  2:52:33 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : LOGI-MT9V-R0.3.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        13mil (0.3302mm)         Round          131              16.37 Inch (415.88 mm)
+T2        18mil (0.4572mm)         Round          4                0.48 Inch (12.21 mm)
+T3        40mil (1.016mm)          Round          8                2.11 Inch (53.62 mm)
+T4        42mil (1.0668mm)         Round          24               3.00 Inch (76.20 mm)
+T5        59.06mil (1.50012mm)     Round          2                0.50 Inch (12.70 mm)
+T6        84mil (2.1336mm)         Round          2                0.79 Inch (20.00 mm)
+---------------------------------------------------------------------------
+Totals                                            171              23.25 Inch (590.60 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,199 @@
+*************************************************************
+FileName = LOGI-MT9V-R0.3.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : LOGI-MT9V-R0.3.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : LOGI-MT9V-R0.3.G1
+
+    Adding Layer      : GND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D27
+    D32
+    D33
+    D34
+*************************************************************
+
+*************************************************************
+Generating : VDD
+      File : LOGI-MT9V-R0.3.G2
+
+    Adding Layer      : VDD
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D28
+    D32
+    D34
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : LOGI-MT9V-R0.3.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : LOGI-MT9V-R0.3.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D25
+    D36
+    D39
+    D40
+    D41
+    D42
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : LOGI-MT9V-R0.3.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : LOGI-MT9V-R0.3.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : LOGI-MT9V-R0.3.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D36
+    D68
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : LOGI-MT9V-R0.3.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D69
+*************************************************************
+
