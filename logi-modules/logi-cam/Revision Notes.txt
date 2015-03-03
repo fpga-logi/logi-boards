@@ -1,5 +1,10 @@
 R1.1
     - see fixed from errata!
+     ERRATA:
+    -  OV7670 RESET NEEDS PULLED HIGH TO STAY ACTIVE!!!!! Opposite of what the datasheet says!
+    - OV7725 still has issue.  Needs to be pulled low!!!
+    - The mosfet had the wrong pinout.  Fixed!!!!
+
 R1.0
     - Added thru hole resistor and SMT transistor.
     - added better via stitching
